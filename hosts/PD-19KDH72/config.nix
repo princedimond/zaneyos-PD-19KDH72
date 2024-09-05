@@ -306,6 +306,7 @@ in
     warp-terminal
     protonvpn-gui
     expressvpn
+    thunderbird
     greetd.tuigreet
   ];
 
