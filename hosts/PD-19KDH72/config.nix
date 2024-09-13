@@ -307,6 +307,8 @@ in
     protonvpn-gui
     expressvpn
     thunderbird
+    direnv
+    podman-desktop
     greetd.tuigreet
   ];
 
