@@ -309,6 +309,7 @@ in
     thunderbird
     direnv
     podman-desktop
+    orca-slicer
     greetd.tuigreet
   ];
 
