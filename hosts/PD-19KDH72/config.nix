@@ -310,6 +310,7 @@ in
     direnv
     podman-desktop
     orca-slicer
+    obsidian
     greetd.tuigreet
   ];
 
