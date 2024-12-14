@@ -159,16 +159,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1733951536,
-        "narHash": "sha256-Zb5ZCa7Xj+0gy5XVXINTSr71fCfAv+IKtmIXNrykT54=",
+        "lastModified": 1733389730,
+        "narHash": "sha256-KZMu4ddMll5khS0rYkJsVD0hVqjMNHlhTM3PCQar0Ag=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "1318c3f3b068cdcea922fa7c1a0a1f0c96c22f5f",
+        "rev": "65912bc6841cf420eb8c0a20e03df7cbbff5963f",
         "type": "github"
       },
       "original": {
         "owner": "nix-community",
-        "ref": "release-24.11",
+        "ref": "master",
         "repo": "home-manager",
         "type": "github"
       }
@@ -196,16 +196,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1734182157,
-        "narHash": "sha256-EqfulVCaBy60t7Ck8bpla6olKsmGsdfI97c5pu9f1Ws=",
+        "lastModified": 1733261153,
+        "narHash": "sha256-eq51hyiaIwtWo19fPEeE0Zr2s83DYMKJoukNLgGGpek=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "2db4a527d1d1a4b5aa38d16ae8f04d53ed4ec29b",
+        "rev": "b681065d0919f7eb5309a93cea2cfa84dec9aa88",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "release-24.11",
+        "ref": "nixos-24.11",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -251,11 +251,11 @@
         "tinted-tmux": "tinted-tmux"
       },
       "locked": {
-        "lastModified": 1734110168,
-        "narHash": "sha256-Q0eeLYn45ErXlqGQyXmLLHGe1mqnUiK0Y9wZRa1SNFI=",
+        "lastModified": 1733427445,
+        "narHash": "sha256-E854RAbAX+DZHDo4HIk2nkqpIvvoAm+P7oDx7TmhWk8=",
         "owner": "danth",
         "repo": "stylix",
-        "rev": "a9e3779949925ef22f5a215c5f49cf520dea30b1",
+        "rev": "eb918dbffa24c4dae497f3ce3173660f948d5237",
         "type": "github"
       },
       "original": {

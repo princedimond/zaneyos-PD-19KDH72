@@ -292,7 +292,7 @@ in
     tree
     spotify
     neovide
-    microsoft-edge-dev
+    microsoft-edge
     vlc
     ferdium
     bitwarden
@@ -311,13 +311,18 @@ in
     podman-desktop
     orca-slicer
     obsidian
+    ventoy
+    rpi-imager
+    ledger-live-desktop
+    logseq
+    writedisk
     greetd.tuigreet
   ];
 
   fonts = {
     packages = with pkgs; [
       noto-fonts-emoji
-      noto-fonts-cjk
+      #  noto-fonts-cjk-sans
       font-awesome
       # symbola
       material-icons
@@ -485,6 +490,12 @@ in
     enable = true;
   };
 
+  # Insecure Packages
+  
+ nixpkgs.config.permittedInsecurePackages = [
+   "electron-27.3.11"
+ ];
+ 
   console.keyMap = "${keyboardLayout}";
 
   # Open ports in the firewall.

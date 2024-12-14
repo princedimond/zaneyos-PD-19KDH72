@@ -104,20 +104,32 @@ with lib;
             animation = fade, 1, 10, default
             animation = workspaces, 1, 5, wind
           }
-          decoration {
-            rounding = 10
-            drop_shadow = true
-            shadow_range = 4
-            shadow_render_power = 3
-            col.shadow = rgba(1a1a1aee)
-            blur {
-                enabled = true
-                size = 5
-                passes = 3
-                new_optimizations = on
-                ignore_opacity = off
-            }
-          }
+          #decoration {
+            
+            #enabled = true
+
+           # rounding = 10
+            
+           # drop_shadow = true
+           # shadow_range = 4
+           # shadow_render_power = 3
+           # col.shadow = rgba(1a1a1aee)
+           
+
+           # shadow [
+           #   enabled = true
+           #   shadow_range = 4
+           #   shadow_render_power = 1
+           #   color = rgba(1a1a1aee)
+          #  ]
+          #  blur {
+          #      enabled = true
+          #      size = 5
+          #      passes = 3
+          #      new_optimizations = on
+          #      ignore_opacity = off
+          #  }
+          #}
           plugin {
             hyprtrails {
             }
