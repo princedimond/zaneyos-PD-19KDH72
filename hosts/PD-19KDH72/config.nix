@@ -316,8 +316,14 @@ in
     ledger-live-desktop
     logseq
     writedisk
+    gwenview
+    remmina
+    teamviewer
     greetd.tuigreet
   ];
+
+  # Enable Teamviewer Service
+  services.teamviewer.enable = true;
 
   fonts = {
     packages = with pkgs; [
