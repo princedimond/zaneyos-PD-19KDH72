@@ -101,14 +101,14 @@ in
   };
 
   # Extra Module Options
-  drivers.amdgpu.enable = true;
+  drivers.amdgpu.enable = false;
   drivers.nvidia.enable = false;
   drivers.nvidia-prime = {
     enable = false;
     intelBusID = "";
     nvidiaBusID = "";
   };
-  drivers.intel.enable = false;
+  drivers.intel.enable = true;
   vm.guest-services.enable = false;
   local.hardware-clock.enable = false;
 
@@ -319,6 +319,9 @@ in
     gwenview
     remmina
     teamviewer
+    lmstudio
+    ollama
+    mission-center
     greetd.tuigreet
   ];
 
