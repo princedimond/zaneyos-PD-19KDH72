@@ -319,12 +319,9 @@ in
     gwenview
     remmina
     teamviewer
-<<<<<<< HEAD
     lmstudio
     ollama
     mission-center
-=======
->>>>>>> origin/master
     greetd.tuigreet
   ];
 
