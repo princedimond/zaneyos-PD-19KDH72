@@ -306,7 +306,6 @@ in
     warp-terminal
     protonvpn-gui
     expressvpn
-    thunderbird
     direnv
     podman-desktop
     orca-slicer
@@ -322,6 +321,7 @@ in
     lmstudio
     ollama
     mission-center
+    anki
     greetd.tuigreet
   ];
 
