@@ -20,6 +20,10 @@ in
 
     # OpenGL
     hardware.opengl = {
+      # Using hardware.graphics.extraPackages instead of the deprecated hardware.opengl.extraPackages
+    };
+    
+    hardware.graphics = {
       extraPackages = with pkgs; [
         intel-media-driver
         vaapiIntel

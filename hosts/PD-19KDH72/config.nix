@@ -322,6 +322,7 @@ in
     ollama
     mission-center
     anki
+    affine
     greetd.tuigreet
   ];
 
