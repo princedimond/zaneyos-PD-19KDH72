@@ -8,6 +8,7 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     # stylix.url = "github:danth/stylix";
     stylix.url = "github:danth/stylix/release-24.11";
+    zen-browser.url = "github:MarceColl/zen-browser-flake";
     fine-cmdline = {
       url = "github:VonHeikemen/fine-cmdline.nvim";
       flake = false;
@@ -15,9 +16,9 @@
   };
 
   outputs =
-    { nixpkgs, home-manager, ... }@inputs:
+    { nixpkgs, home-manager, zen-browser, ... }@inputs:
     let
-      system = "aarch64-linux";
+      system = "x86_64-linux";
       host = "PD-19KDH72";
       username = "princedimond";
     in

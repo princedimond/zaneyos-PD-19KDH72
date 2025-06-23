@@ -4,6 +4,7 @@
   host,
   username,
   options,
+  inputs,
   ...
 }:
 let
@@ -13,9 +14,10 @@ in
   imports = [
     ./hardware.nix
     ./users.nix
-    ../../modules/amd-drivers.nix
-    ../../modules/nvidia-drivers.nix
-    ../../modules/nvidia-prime-drivers.nix
+    # Commenting out AMD and NVIDIA driver imports as we're only using Intel
+     ../../modules/amd-drivers.nix
+     ../../modules/nvidia-drivers.nix
+     ../../modules/nvidia-prime-drivers.nix
     ../../modules/intel-drivers.nix
     ../../modules/vm-guest-services.nix
     ../../modules/local-hardware-clock.nix
@@ -25,8 +27,8 @@ in
     # Kernel
     kernelPackages = pkgs.linuxPackages_zen;
     # This is for OBS Virtual Cam Support
-    kernelModules = [ "v4l2loopback" ];
-    extraModulePackages = [ config.boot.kernelPackages.v4l2loopback ];
+    #kernelModules = [ "v4l2loopback" ];
+    #extraModulePackages = [ config.boot.kernelPackages.v4l2loopback ];
     # Needed For Some Steam Games
     kernel.sysctl = {
       "vm.max_map_count" = 2147483642;
@@ -290,7 +292,7 @@ in
     gimp
     pavucontrol
     tree
-    spotify
+    # spotify
     neovide
     microsoft-edge
     vlc
@@ -323,7 +325,16 @@ in
     mission-center
     anki
     affine
+    appflowy
+    winbox4
+    notion-app-enhanced
+    joplin-desktop
     greetd.tuigreet
+    evil-helix
+    helix-gpt
+    inputs.zen-browser.packages.x86_64-linux.default
+    inputs.zen-browser.packages.x86_64-linux.specific
+    inputs.zen-browser.packages.x86_64-linux.generic
   ];
 
   # Enable Teamviewer Service
