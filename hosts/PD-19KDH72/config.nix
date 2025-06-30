@@ -332,6 +332,7 @@ in
     greetd.tuigreet
     evil-helix
     helix-gpt
+    hollywood
     inputs.zen-browser.packages.x86_64-linux.default
     inputs.zen-browser.packages.x86_64-linux.specific
     inputs.zen-browser.packages.x86_64-linux.generic
